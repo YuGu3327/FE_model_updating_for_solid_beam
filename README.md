@@ -1,5 +1,5 @@
 # FE_model_updating
- In short, this script is setting up, running, and processing the results of an ABAQUS simulation, and then comparing these results to experimental data. The script is designed to be used in an optimization loop, where the `parameter` input would be updated in each iteration to try and minimize the output of the `fitness` function 
+ In short, this script is setting up, running, and processing the results of an ABAQUS simulation, and then comparing these results to experimental data. The script is designed to be used in an optimization loop, where the `parameter` input would be updated in each iteration to try and minimize the output of the `fitness` function (i.e., the difference between the simulated and experimental results).
 =============================
 The CAE file is the SOLID BEAM, which for updating
 
@@ -27,7 +27,7 @@ This MATLAB script represents a fitness function used in a process of optimizati
 
 11. Finally, the residuals are combined to create the final output, which represents the fitness of the solution.
 
-In short, this script is setting up, running, and processing the results of an ABAQUS simulation, and then comparing these results to experimental data. The script is designed to be used in an optimization loop, where the `parameter` input would be updated in each iteration to try and minimize the output of the `fitness` function (i.e., the difference between the simulated and experimental results).
+
 ======================================================================
 1. **inpmodify**
    This script is used to modify an ABAQUS input file (.inp) according to some new data from a text file. The script performs the following operations:
